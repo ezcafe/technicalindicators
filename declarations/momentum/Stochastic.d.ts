@@ -5,6 +5,7 @@ export declare class StochasticInput extends IndicatorInput {
     high: number[];
     close: number[];
     signalPeriod: number;
+    smoothing: number;
 }
 export declare class StochasticOutput {
     k: number;
